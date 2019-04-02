@@ -3,7 +3,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto">
 
         <item
-            android:id="@+id/item2"
+            android:id="@+id/item1"
             android:title="Home"
             app:showAsAction="never" />
         <item
@@ -14,5 +14,15 @@
             android:id="@+id/item4"
             android:title="Sign up"
             app:showAsAction="never" />
+        <item
+            android:id="@+id/item5"
+            android:title="Products"
+            app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/item6"
+        android:title="list"
+        app:showAsAction="never"
+        />
 
     </menu>
