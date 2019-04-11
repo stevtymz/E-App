@@ -8,19 +8,27 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 //KIKWALO STEVEN 2017/BIT/147
 
 public class MainActivity extends AppCompatActivity {
-
+    Button t;
     public static final String me="custome message";
-    public void openhome( View v){
-      setContentView(R.layout.activity_home);
-    }
-    @Override
+
+
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        t = findViewById(R.id.btn3);
+        // loading of home activity
+        t.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent explicitIntent = new Intent(getApplicationContext(),home.class);
+                startActivity(explicitIntent);
+                }
+        });
     }
 
     @Override
@@ -85,4 +93,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    public void openhome(View view) {
+    }
 }

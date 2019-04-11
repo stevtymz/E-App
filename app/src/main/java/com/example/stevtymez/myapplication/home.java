@@ -49,6 +49,11 @@ public class home extends AppCompatActivity {
                 Intent myintent4 =new Intent(home.this,list.class);
                 startActivity(myintent4);
                 break;
+
+            case R.id.item7:
+                Intent myintent5 =new Intent(home.this,markets.class);
+                startActivity(myintent5);
+                break;
             default:
                 return false;
 
