@@ -7,7 +7,7 @@
     tools:context=".home">
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/butt"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="93dp"
         android:layout_height="wrap_content"
@@ -24,11 +24,12 @@
         app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.97"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints"
+        tools:text="Sign up" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn1"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="154dp"
         android:layout_height="53dp"
@@ -50,7 +51,7 @@
         tools:text="Sign in" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/password"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
@@ -73,7 +74,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/name"
         android:layout_width="200dp"
         android:layout_height="45dp"
         android:layout_marginStart="8dp"
@@ -115,5 +116,24 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.044"
         tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="134dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="warning"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.718"
+        tools:text="warning" />
 
 </android.support.constraint.ConstraintLayout>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".product"
+    tools:context=".sign"
     tools:layout_editor_absoluteY="81dp">
 
 
@@ -29,7 +29,7 @@
 
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/reg"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="154dp"
         android:layout_height="50dp"
@@ -39,7 +39,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:text="Continue"
+        android:text="Submit"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="24sp"
@@ -75,7 +75,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/editText3"
+        android:id="@+id/username"
         style="@android:style/Widget.DeviceDefault.EditText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -94,10 +94,10 @@
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.27" />
+        app:layout_constraintVertical_bias="0.276" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -118,9 +118,9 @@
         app:layout_constraintVertical_bias="0.097" />
 
     <EditText
-        android:id="@+id/editText5"
+        android:id="@+id/password"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="42dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"

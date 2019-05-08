@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "28427126552",
+    "firebase_url": "https://eshop-7f1eb.firebaseio.com",
+    "project_id": "eshop-7f1eb",
+    "storage_bucket": "eshop-7f1eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:28427126552:android:f480646755f17287",
+        "android_client_info": {
+          "package_name": "com.example.stevtymez.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "28427126552-3be1iqs1j41f750vg789vnlohnfp81q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsJjpHwbgsMV8ePaszqHVUuBNGCPojnNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "28427126552-3be1iqs1j41f750vg789vnlohnfp81q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
